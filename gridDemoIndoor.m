@@ -13,22 +13,27 @@
 
 %% Configuration
 % Define grid parameters
-grid1.scenarioFile = "conferenceroom.stl";
+grid.scenarioFile = 'conferenceroom.stl';
 grid.controlPoints.coordinateSystem = 'cartesian';
-grid.controlPoints.positions =[-0.5,0.5,-0.5,0.5;0.5,0.5,-0.5,-0.5;.8,.8,0.8,.8];
+grid.controlPoints.positions =[-0.5,0.5,-0.5,0.5;...
+                               0.5,0.5,-0.5,-0.5;...
+                               0.8,0.8,0.8,0.8];
 grid.spacing = .25;
 
 %% Process section
 % Indoor Scenario
-viewer = siteviewer("SceneModel","conferenceroom.stl");
+viewer = siteviewer('SceneModel',grid.scenarioFile, ...
+    'ShowOrigin', true);
 
 pause(5)
 
 % Recognize the grid control points
 ctrlPts = txsite(grid.controlPoints.coordinateSystem, ...   
-    "AntennaPosition",grid.controlPoints.positions);
+    'AntennaPosition',grid.controlPoints.positions);
     
-show(ctrlPts,'ShowAntennaHeight', false)
+show(ctrlPts,'ShowAntennaHeight', false, ...
+    'Icon','Rdot.png', ...
+    'IconSize',[10 10]);
 
 pause(5)
 clearMap(viewer)
@@ -42,5 +47,8 @@ clearMap(viewer)
 rx = rxsite(grid.controlPoints.coordinateSystem, ...
     "Name",names,...
     "AntennaPosition",positions);
-    
-show(rx,'ShowAntennaHeight', false)
+
+%show(rx,'ShowAntennaHeight', false);
+show(rx,'ShowAntennaHeight', false,...
+    'Icon','Gdot.png', ...
+    'IconSize',[10 10]);
