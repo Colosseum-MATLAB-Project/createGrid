@@ -1,4 +1,4 @@
-# createGrid
+# Creating a Grid of Possible Transceiver in the Ray-tracer
 This repository contains the function to create grid of transceivers in the MATLAB ray-tracer as well as scripts to demonstrate the function in outdoor and indoors scenarios.
 
 ## Acknowledgements
