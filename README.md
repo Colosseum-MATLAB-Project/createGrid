@@ -6,26 +6,26 @@ This repository contains the function to create grid of transceivers in the MATL
 
   ## Contact
 
-  * Miead Tehrani-Moayyed, Ph.D. Candidate 
+  * Miead Tehrani-Moayyed, Ph.D. Candidate  
   Graduate Research Assistant 
-  * Institute for the Wireless Internet of Things
-  Northeastern University, Boston, MA, USA 
+  Institute for the Wireless Internet of Things  
+  Northeastern University, Boston, MA, USA  
   tehranimoayyed.m@northeastern.edu
   
   * Leonardo Bonati, Ph.D. Candidate  
-  Graduate Research Assistant
-  * Institute for the Wireless Internet of Things
-  Northeastern University, Boston, MA, USA 
+  Graduate Research Assistant  
+  Institute for the Wireless Internet of Things  
+  Northeastern University, Boston, MA, USA  
   bonati.l@northeastern.edu
   
-  * Pedram Johari, Ph.D.
-  Principal Research Scientist
-  * Institute for the Wireless Internet of Things
-  Northeastern University, Boston, MA, USA 
-  p.johari@northeastern.edu 
+  * Pedram Johari, Ph.D.  
+  Principal Research Scientist  
+  Institute for the Wireless Internet of Things  
+  Northeastern University, Boston, MA, USA  
+  p.johari@northeastern.edu  
   
   * Stefano Basagni, Ph.D.  
   Associate Professor of Computer Engineering  
-  * Institute for the Wireless Internet of Things
-  Northeastern University, Boston, MA, USA 
-  s.basagni@northeastern.edu 
+  Institute for the Wireless Internet of Things  
+  Northeastern University, Boston, MA, USA  
+  s.basagni@northeastern.edu  
