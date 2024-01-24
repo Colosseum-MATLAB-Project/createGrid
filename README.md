@@ -1,6 +1,9 @@
 # Creating a Grid of Possible Transceiver in the Ray-tracer
 This repository contains the function to create grid of transceivers in the MATLAB ray-tracer as well as scripts to demonstrate the function in outdoor and indoors scenarios.
 
+
+Please refer to [this repository](https://github.com/Colosseum-MATLAB-Project/channelSimulator) for comprehensive instructions on creating Colosseum RF scenarios using MATLAB ray-tracer.
+
 ## Acknowledgements
   This work is supported by MathWorks under the Development-Collaboration Research Grant
 
